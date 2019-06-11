@@ -15,102 +15,51 @@ a, a:hover, a:focus, a:visited, a:active {
   text-decoration: none;
   color: inherit;
 }
-
-/* MOBILE */
-@media (max-width: 705px){
-  .nav-mobile {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-  }
-
-  .nav-mobile:hover {
-    background-color: #2ea6eb;
-    cursor: pointer;
-  }
-  
-  .nav-container {
-    margin: 0;
-    background-color: #252d76;
-    color: white;
-    font-family: Arial;
-    font-size: 17px;
-    padding: 0px;
-  }
-
-  .nav-btn, .nav-btn-r {
-    display: none;
-    padding: 14px 16px;
-  }
-
-  .nav-dropdown-link {
-    display: block;
-    padding: 8px 16px;
-  }
-  
-  .nav-dropdown-link:hover {
-    cursor: pointer;
-    background-color: #ffffff;
-    color: black;
-  }
-
-  .nav-dropdown {
-    display: none;
-  }
+.nav-mobile {
+  display: none;
 }
 
-.nav-icon {
-  width: 25px;
+.nav-container {
+  margin: 0;
+  background-color: #252d76;
+  color: white;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 0 40px;
 }
 
-/* DESKTOP */
-@media (min-width: 706px) {
-  .nav-mobile {
-    display: none;
-  }
+.nav-btn {
+  display: inline-block;
+  padding: 14px 16px;
+}
 
-  .nav-container {
-    margin: 0;
-    background-color: #252d76;
-    color: white;
-    font-family: Arial;
-    font-size: 17px;
-    padding: 0 40px;
-  }
+.nav-btn-r {
+  display: inline-block;
+  padding: 14px 16px;
+  float: right;
+}
 
-  .nav-btn {
-    display: inline-block;
-    padding: 14px 16px;
-  }
-  
-  .nav-btn-r {
-    display: inline-block;
-    padding: 14px 16px;
-    float: right;
-  }
+.nav-dropdown {
+  background-color: #ffffff;
+  color: black;
+  min-width: 150px;
+  display: none;
+  position: absolute;
+  top: 48px;
+  transform: translateX(-16px);
+}
 
-  .nav-dropdown {
-    background-color: #ffffff;
-    color: black;
-    min-width: 150px;
-    display: none;
-    position: absolute;
-    top: 48px;
-    transform: translateX(-16px);
-  }
-  
-  .nav-btn-dropdown:hover .nav-dropdown {
-    display: block !important;
-    cursor: default !important;
-  }
+.nav-btn-dropdown:hover .nav-dropdown {
+  display: block !important;
+  cursor: default !important;
+}
 
-  .nav-dropdown-link {
-    display: block;
-    padding: 8px 16px;
-  }
-  
-  .nav-dropdown-link:hover {
-    cursor: pointer;
-    background-color: #32a5e6;
-  }
+.nav-dropdown-link {
+  display: block;
+  padding: 8px 16px;
+}
+
+.nav-dropdown-link:hover {
+  cursor: pointer;
+  background-color: #32a5e6;
 }

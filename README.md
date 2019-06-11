@@ -1,11 +1,10 @@
 # Navbar-cc
-Navbar-cc is a responsive navbar made using basic technologies like HTML and CSS with a little of vanilla JavaScript.
+Navbar-cc is a responsive navbar made using basic technologies like HTML and CSS.
 
 ## See an example
 https://mattyx22.github.io/navbar-cc/index.html
 
-## Features
-- fully responsive (looks nice on mobile and desktop) 
+## Features 
 - colors of navbar can be different for both options
 - fast (takes only ~6 KB)
 
@@ -44,6 +43,9 @@ https://mattyx22.github.io/navbar-cc/index.html
             <a class="nav-a-href">Dropdown</a>
   ...
 ```
+
+## Mobile-extra
+You can also find a folder called "mobile-extra" which contains the same navbar but with usage a little bit of vanilla JavaScript to provide fully responsive navbar.
 
 
 
