@@ -1,5 +1,5 @@
 # Navbar-cc
-Navbar-cc is a responsive navbar made using basic technologies like HTML and CSS.
+Navbar-cc is a navbar made using basic technologies like HTML and CSS.
 
 ## See an example
 HTML AND CSS: https://mattyx22.github.io/navbar-cc/index.html
