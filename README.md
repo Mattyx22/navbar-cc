@@ -2,7 +2,7 @@
 Navbar-cc is a navbar made using basic technologies like HTML and CSS.
 
 ## See an example
-HTML AND CSS: https://mattyx22.github.io/navbar-cc/index.html
+HTML AND CSS: https://mattyx22.github.io/navbar-cc/index.html  
 RESPONSIVE WITH JS: https://mattyx22.github.io/navbar-cc/mobile-extra/index.html
 
 ## Features 
